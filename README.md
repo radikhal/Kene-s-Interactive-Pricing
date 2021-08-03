@@ -1,2 +1,2 @@
-# Kene-s-Interactive-Pricing
+# Kene-Interactive-Pricing
 A frontend mentor interactive pricing challenge....
