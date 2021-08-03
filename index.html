@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+<section class="first-section">
+  <div class="header-section">
+    <h1 class= 'big-heading'>Simple, traffic-based pricing
+    </h1>
+    <div class="paragraphs"><p class='first-p'>Sign-up for our 30-day trial. </p>
+      <p class="second-p">No credit card required.</p></div>
+  </div>
+</section>
+<section class="second-section">
+  <div class="card">
+    <div class="card-main">
+      <div class="page-view"><p class="pageviews">100K PAGEVIEWS</p>
+        <div class="secondary-price-container"><span id="dollar">$</span><h1 class="price">16</h1><span class="zero">.00</span>
+          <h5 class="per-month">/ month</h5></div>
+      </div>
+      <div class="slidecontainer">
+    <input type="range" min="0" max="4" value="2" class="slider" id="myrange">
+  </div>
+  <div class="price-container"><span id="dollar">$</span><h1 class="price">16</h1><span class="zero">.00</span>
+  <h5 class="per-month">/ month</h5></div>
+  <div class="bill-container">
+    <span class="month-bill">Monthly Billing</span>
+ <input type="checkbox" class="checkbox" id="checkbox">
+ <label for="checkbox" class="label"><div class="ball"></div></label>
+  <span class="year-bill">Yearly Billing</span>
+  <span class="discount-percentage">-25%</span><span class="bigdiscount">25% discount</span>
+  </div> 
+</div>
+<div class="card-footer">
+  <div class="feature-footer">
+    <div class="feature"><img src="images/checkmark.png" alt="" class="checkmark-img"><span>Unlimited websites</span></div>
+    <div class="feature"><img src="images/checkmark.png" alt="" class="checkmark-img"><span class="own">100% data ownership</span></div>
+    <div class="feature"><img src="images/checkmark.png" alt="" class="checkmark-img"><span>Email reports</span></div>
+  </div>
+  <div class="button-container">
+    <button type="button" class="button-text">Start my trial</button>
+  </div>
+  </div>
+
+  </div>
+</section>
+  <!-- Simple, traffic-based pricing
+  Sign-up for our 30-day trial. No credit card required. 
+
+  Pageviews
+  $ /month
+
+  Monthly Billing
+  Yearly Billing 25% discount
+
+  Unlimited websites
+  100% data ownership
+  Email reports
+
+  Start my trial
+
+<span class="dollar">$</span>-->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kenechukwu Azotani</a>.
+  </div>
+  <!-- javaScript -->
+<script src="app.js"></script>
+</body>
+</html>
